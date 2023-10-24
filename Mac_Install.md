@@ -23,8 +23,9 @@ pip3 install jupyter-dash dash-leaflet==0.1.9 dash==2.8.1 pandas==1.4.2
 #### Put directories/files in place
 
 ```
-git clone git@github.com:polloparatodos/CS340-Local_Setup.git ~/Desktop/MongoDB_Setup # Or somewhere else
+git clone git@github.com:polloparatodos/CS340-Local-Setup.git ~/Desktop/MongoDB_Setup # Or somewhere else
 cd $_
+unzip CS340_Datasets.zip
 sudo mv datasets /usr/local/
 cd ~/Desktop/MongoDB_Setup/mongo
 # move mongodb files
