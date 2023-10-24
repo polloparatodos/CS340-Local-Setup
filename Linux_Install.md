@@ -3,7 +3,7 @@ The following instructions are intended to assist in setting up Linux to closely
 ## Setup
 
 ### Prerequisites
-* Get the CS340 files.zip [here](https://github.com/polloparatodos/CS340-Local_Setup/raw/master/CS340%20files.zip)
+* Get the CS340_Datasets.zip [here](https://github.com/polloparatodos/CS340-Local-Setup/raw/master/CS340_Datasets.zip)
 * Download MongoDB [here](https://repo.mongodb.org/apt/ubuntu/dists/jammy/mongodb-org/7.0/multiverse/binary-amd64/mongodb-org-server_7.0.2_amd64.deb)
 * Download MongoDB Shell [here](https://downloads.mongodb.com/compass/mongodb-mongosh_2.0.2_amd64.deb?_ga=2.152946553.1902714214.1697858576-1426810728.1690164718)
 * Download MongoDB Database Tools [here](https://fastdl.mongodb.org/tools/db/mongodb-database-tools-ubuntu2204-x86_64-100.9.0.deb)
@@ -22,10 +22,10 @@ sudo dpkg -i mongodb-org-server_7.0.2_amd64.deb mongodb-mongosh_2.0.2_amd64.deb 
 
 ### Steps
 
-#### Unzip CS340 files and move datasets folder
+#### Unzip 'CS340_Datasets.zip' and move datasets folder
 
 ```
-unzip 'CS340 files.zip'
+unzip 'CS340_Datasets.zip'
 sudo mv datasets /usr/local/
 ```
 
