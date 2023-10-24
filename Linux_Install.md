@@ -52,10 +52,11 @@ sudo mongod --port 27017 --dbpath /var/lib/mongodb
 ```
 mongosh --port 27017
 ```
-* Add root user, when prompted, use password you set in mongodb-env.txt
+* Add privileged user, when prompted, use password you set in mongodb-env.txt
+  * Note: This is different from the user you need to use in the class and should have different parameters. You will not want to use the following user there.
 ```
 use admin
-db.createUser({user: "root", pwd: passwordPrompt(), roles: [{role: "root", db: "admin"}]})
+db.createUser({user: "woot", pwd: passwordPrompt(), roles: [{role: "root", db: "admin"}]})
 db.adminCommand({shutdown: 1})
 exit
 ```
